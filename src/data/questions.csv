@@ -1,0 +1,15 @@
+1,What is Java?,Programming Language,Coffee,Island,None,Programming Language
+2,Which company developed Java?,Sun Microsystems,Microsoft,Google,Apple,Sun Microsystems
+3,Which keyword is used to inherit a class in Java?,extends,implements,super,class,extends
+4,Which method is the entry point of Java programs?,main(),start(),run(),init(),main()
+5,Which data type is used to store decimal numbers?,int,float,double,char,double
+6,Which of these is not a Java access modifier?,public,private,protected,package,package
+7,What is the size of int in Java?,2 bytes,4 bytes,8 bytes,1 byte,4 bytes
+8,Which of these is a loop construct in Java?,for,if,switch,return,for
+9,Which exception is thrown when dividing by zero?,NullPointerException,ArithmeticException,IOException,ClassNotFoundException,ArithmeticException
+10,Which of these is used to create a new object?,new(),create(),init(),make(),new()
+11,Which keyword is used to prevent inheritance?,final,static,abstract,volatile,final
+12,Which method is used to compare two strings for equality?,equals(),compare(),match(),equal(),equals()
+13,Which package contains the Scanner class?,java.util,java.io,java.lang,java.net,java.util
+14,What is the default value of boolean in Java?,true,false,null,0,false
+15,Which operator is used for logical AND?,&&,||,!,&,&&
