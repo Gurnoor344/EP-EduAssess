@@ -30,6 +30,16 @@ public class CSVHandler {
         overwriteCSV(STUDENT_FILE, data);
     }
 
+    public static boolean studentExists(String id, String name) {
+    List<Student> students = getStudents();
+    for (Student s : students) {
+        if (s.getId().equals(id) &&
+            s.getName().equalsIgnoreCase(name)) {
+            return true;
+        }
+    }
+    return false;
+}
     // --- Question Methods ---
     public static void addQuestion(Question q) {
         writeCSV(QUESTION_FILE, q.toCSV());
@@ -43,6 +53,13 @@ public class CSVHandler {
         }
         return questions;
     }
+
+    // --- Overwrite Questions ---
+public static void overwriteQuestions(List<Question> questions) {
+    List<String> data = new ArrayList<>();
+    for (Question q : questions) data.add(q.toCSV());
+    overwriteCSV(QUESTION_FILE, data);
+}
 
     // --- Result Methods ---
     public static void addResult(String[] result) {
